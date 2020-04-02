@@ -71,3 +71,31 @@ body {
   background: url(./img/toggle.png);
   background-size: cover;
 }
+
+/* ___________________________________ About ___________________________________ */
+.about {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+.about .content-box {
+  background: #162c3b;
+  color: #fff;
+  padding: 100px;
+  width: 50%;
+}
+.heading {
+  font-size: 30px;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+.content-box p {
+  color: #ddd;
+}
+.about .img-box {
+  background: url(./img/window.jpg);
+  width: 50%;
+  min-height: 650px;
+  background-size: cover;
+  background-position: center;
+}
