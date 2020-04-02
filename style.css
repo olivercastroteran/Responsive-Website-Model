@@ -85,6 +85,7 @@ body {
   width: 50%;
 }
 .heading {
+  color: #fff;
   font-size: 30px;
   margin-bottom: 25px;
   letter-spacing: 1px;
@@ -98,4 +99,47 @@ body {
   min-height: 650px;
   background-size: cover;
   background-position: center;
+}
+
+/* ___________________________________ Services ___________________________________ */
+.services {
+  background-color: #12222d;
+  padding: 100px;
+  text-align: center;
+}
+.services p {
+  color: #fff;
+  width: 60%;
+  margin: 0 auto;
+}
+.services .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+.services .container .service-box {
+  border-radius: 10px;
+  position: relative;
+  background: #fff;
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.services .container .service-box:hover {
+  background: #83a6d3;
+  transform: scale(1.1);
+}
+.services .container .service-box img {
+  max-width: 150px;
+  margin-bottom: 15px;
+}
+.services .container .service-box h2 {
+  letter-spacing: 1px;
 }
