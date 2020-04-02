@@ -326,3 +326,113 @@ footer ul li a img {
 footer ul li a img:hover {
   opacity: 0.8;
 }
+
+/* ___________________________________ Responsive Design ___________________________________ */
+@media (max-width: 1023px) {
+  .services {
+    padding: 50px;
+  }
+  .services .container .service-box {
+    border-radius: 8px;
+    width: 280px;
+    height: 300px;
+  }
+  .technology {
+    padding-top: 200px;
+    margin-top: -200px;
+  }
+  .client .img-box img {
+    max-width: 150px;
+  }
+  .testimonials {
+    padding: 50px;
+  }
+  .testimonials .container .content-box {
+    width: 400px;
+  }
+  .about .content-box {
+    padding: 50px;
+  }
+  .form .input-box input,
+  .form .input-box textarea {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .services {
+    padding: 30px;
+  }
+  .services .container .service-box {
+    border-radius: 8px;
+    width: 220px;
+    height: 270px;
+  }
+  .technology {
+    padding-top: 175px;
+    margin-top: -175px;
+  }
+  .testimonials .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .testimonials .container .content-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner header {
+    padding: 15px 30px;
+  }
+  .banner .content {
+    width: 90%;
+    text-align: center;
+  }
+  .banner .content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .banner .content p {
+    font-size: 14px;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .about .content-box {
+    padding: 50px;
+    width: 100%;
+  }
+  .about .img-box {
+    width: 100%;
+  }
+  .services .container {
+    flex-direction: column;
+  }
+  .services .container .service-box {
+    margin-bottom: 20px;
+  }
+  .technology {
+    flex-direction: column;
+    padding: 30px;
+    padding-top: 150px;
+    margin-top: -150px;
+  }
+  .technology .img-box img {
+    margin-top: 20px;
+  }
+  .client {
+    padding: 15px;
+  }
+  .img-box-2 {
+    width: 100%;
+  }
+  .contact {
+    padding: 20px;
+  }
+  footer {
+    padding: 10px 10px;
+  }
+}
