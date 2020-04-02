@@ -124,7 +124,7 @@ body {
   border-radius: 10px;
   position: relative;
   background: #fff;
-  width: 350px;
+  width: 330px;
   height: 400px;
   display: flex;
   flex-direction: column;
@@ -134,7 +134,7 @@ body {
 }
 .services .container .service-box:hover {
   background: #83a6d3;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .services .container .service-box img {
   max-width: 150px;
@@ -142,4 +142,25 @@ body {
 }
 .services .container .service-box h2 {
   letter-spacing: 1px;
+}
+
+/* ___________________________________ Technology ___________________________________ */
+.technology {
+  background: #3f8ffc;
+  width: 100%;
+  padding: 100px;
+  padding-top: 300px;
+  margin-top: -300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.technology .content-box {
+  max-width: 800px;
+}
+.technology .img-box {
+  max-width: 250px;
+}
+.technology .img-box img {
+  max-width: 100%;
 }
