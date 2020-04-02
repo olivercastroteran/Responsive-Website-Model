@@ -229,3 +229,61 @@ body {
   color: #3f8ffc;
   text-align: end;
 }
+/* ___________________________________ Contact ___________________________________ */
+.contact {
+  padding: 100px;
+  background: #162c3b;
+  color: #ddd;
+  text-align: center;
+}
+.img-box-2 {
+  background: url(./img/bg2.jpg);
+  min-height: 650px;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+.redbg {
+  background: url(./img/red.jpg) !important;
+  min-height: 650px;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+.form .input-box {
+  margin-bottom: 40px;
+}
+.form .input-box input,
+.form .input-box textarea {
+  width: 75%;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  border-bottom: 2px solid #fff;
+}
+.form .input-box input::placeholder {
+  color: #fff;
+}
+.form .input-box textarea {
+  height: 150px;
+}
+.form .input-box textarea::placeholder {
+  color: #fff;
+}
+.form .input-box input[type='submit'] {
+  width: 150px;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #fff;
+  transition: 0.3s;
+}
+.form .input-box input[type='submit']:hover {
+  color: #333;
+  background: #fff;
+}
