@@ -287,3 +287,42 @@ body {
   color: #333;
   background: #fff;
 }
+
+/* ___________________________________ Footer ___________________________________ */
+footer {
+  padding: 20px 100px;
+  color: #aaa;
+  text-align: center;
+  background: #162c3b;
+}
+.me {
+  color: #aaa;
+  text-decoration: none;
+}
+.me:hover {
+  color: #fff;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+footer ul li a img {
+  filter: invert(1);
+  width: 30px;
+  height: auto;
+  margin-top: 15px;
+  opacity: 0.25;
+}
+footer ul li a img:hover {
+  opacity: 0.8;
+}
